@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startDate"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectDAte"
+            android:id="@+id/btn_date"
+            android:background="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="onDate"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startTime"
+            android:layout_marginTop="5dip"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectTime"
+            android:id="@+id/btn_time"
+            android:background="@color/colorPrimary"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="onTime"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginTop="5dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/edit_duration"
+            android:hint="@string/duration"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shedule"
+            android:id="@+id/btn_shedule"
+            android:layout_marginTop="10dip"
+            android:background="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

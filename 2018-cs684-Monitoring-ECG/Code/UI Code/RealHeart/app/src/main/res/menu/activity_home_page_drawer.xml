@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="ECG Sensor Data" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Medicine Reminder" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Emergency Contacts" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Send SOS or CALL" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Sign out" />
+
+    </group>
+
+</menu>

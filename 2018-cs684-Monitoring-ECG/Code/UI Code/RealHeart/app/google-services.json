@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451708245766",
+    "firebase_url": "https://realheart-26433.firebaseio.com",
+    "project_id": "realheart-26433",
+    "storage_bucket": "realheart-26433.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451708245766:android:6358b8540cf185ba",
+        "android_client_info": {
+          "package_name": "com.example.root.realheart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451708245766-b8un4n035adhld4gvf47liva4udqpfcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root.realheart",
+            "certificate_hash": "5a6559fcbaadc6d739e5f56b36f5e3128923ffe3"
+          }
+        },
+        {
+          "client_id": "451708245766-e952dkm8o51c2169jkvc7apbecr6b0ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbLeuLr9dOFIhrx3JzLbtL44rRklj8Dhk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451708245766-e952dkm8o51c2169jkvc7apbecr6b0ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
